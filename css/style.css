@@ -567,6 +567,7 @@ section + section { border-top: 1px solid var(--rule); }
     display: flex;
     gap: 2rem;
     align-items: flex-start;
+    flex-direction: row;
 }
 
 .port-text {
@@ -577,7 +578,7 @@ section + section { border-top: 1px solid var(--rule); }
     display: flex;
     flex-direction: column;
     gap: 1rem;
-    flex: 0 0 300px;
+    flex: 0 0 180px;
 }
 
 .port-images img {
