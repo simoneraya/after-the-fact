@@ -502,7 +502,7 @@ section + section { border-top: 1px solid var(--rule); }
         gap: 3rem;
     }
     
-    .port-item:has(.port-content-flex) {
+    .port-item-flex {
         grid-template-columns: 1fr;
     }
 }
