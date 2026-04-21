@@ -576,7 +576,7 @@ section + section { border-top: 1px solid var(--rule); }
 
 .port-images {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     gap: 1rem;
     flex: 0 0 300px;
 }
@@ -586,6 +586,12 @@ section + section { border-top: 1px solid var(--rule); }
     height: auto;
     border-radius: 3px;
     object-fit: cover;
+    flex: 1;
+    max0width: 150px;
+}
+
+.port-image-item {
+    flex: 1;
 }
 
 @media (max-width: 900px) {
