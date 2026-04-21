@@ -501,13 +501,7 @@ section + section { border-top: 1px solid var(--rule); }
         grid-template-columns: 280px 1fr;
         gap: 3rem;
     }
-    
-    .port-item-flex {
-        grid-template-columns: 1fr 1fr;
-        gap: 3rem;
-    }
 }
-
 .port-item:last-child { border-bottom: 1px solid var(--rule); }
 
 .port-label {
