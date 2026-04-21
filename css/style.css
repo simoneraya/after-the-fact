@@ -563,6 +563,40 @@ section + section { border-top: 1px solid var(--rule); }
     border-bottom-color: var(--accent-hover);
 }
 
+.port-content-flex {
+    display: flex;
+    gap: 2rem;
+    align-items: flex-start;
+}
+
+.port-text {
+    flex: 1;
+}
+
+.port-images {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    flex: 0 0 300px;
+}
+
+.port-images img {
+    width: 100%;
+    height: auto;
+    border-radius: 3px;
+    object-fit: cover;
+}
+
+@media (max-width: 900px) {
+    .port-content-flex {
+        flex-direction: column;
+    }
+    
+    .port-images {
+        flex: 0 0 auto;
+        width: 100%;
+    }
+}
 /* ---------- Footer ---------- */
 
 footer {
