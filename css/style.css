@@ -671,6 +671,24 @@ footer {
     flex-wrap: wrap;
     gap: 1rem;
 }
+/* ---------- Blog Post Image ---------- */
+
+.article-image {
+    margin: 2rem 0;
+}
+
+.article-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.article-image figcaption {
+    font-size: 0.875rem;
+    color: var(--ink-soft);
+    margin-top: 0.5rem;
+    font-style: italic;
+}
 
 /* ---------- Back link ---------- */
 
