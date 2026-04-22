@@ -675,12 +675,14 @@ footer {
 
 .article-image {
     margin: 2rem 0;
+    text-align: center;
 }
 
 .article-image img {
-    width: 100%;
+    width: 400px;
     height: auto;
     display: block;
+    margin: 0 auto;
 }
 
 .article-image figcaption {
